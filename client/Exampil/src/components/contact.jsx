@@ -1,20 +1,16 @@
 import React from 'react'
-import Vertical from './flexbetween/vertical'
-import Vertical1 from './flexbetween/vertical1'
-import Horizontal from './flexbetween/horizontal'
 import Form from 'react-bootstrap/Form';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
-import FormGroup from '@mui/material/FormGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import BusinessIcon from '@mui/icons-material/Business';
+import EmailIcon from '@mui/icons-material/Email';
+import QueryBuilderIcon from '@mui/icons-material/QueryBuilder';
 
 
 const Contact = () => {
   return (
-    <div style={{height:'40rem',width:'100%' ,display:'flex',}}>
+    <div style={{height:'40rem',width:'100%' ,display:'flex',marginTop:"2rem"}}>
       
       <div className="left" style={{width:"50%",height:"100%",display:"flex",alignItems:"center",justifyContent:"center"}}>
 
@@ -47,8 +43,10 @@ const Contact = () => {
 
       <div className="right" style={{background:"#fcecbd", height:"100%",width:"50%", color:"white",display:"flex", flexDirection:'column', justifyContent:"center", alignItems:"flex-start",padding:"2rem"}}>
             <h1 style={{color:"purple"}}>Info</h1>
-            <LocalPhoneIcon style={{color:"purple"}} /> <p style={{color:"purple"}}>95034580354</p>
-            <BusinessIcon style={{color:"purple"}} /> <p style={{color:"purple"}}>Mumbai</p>
+            <LocalPhoneIcon style={{color:"purple"}} /> <p style={{color:"purple"}}>9930552280</p>
+            <BusinessIcon style={{color:"purple"}} /> <p style={{color:"purple"}}>Corporate Address: 1608, Lodha Supramus <br /> Powai Mumbai India</p>
+            <EmailIcon style={{color:"purple"}} /> <p style={{color:"purple"}}>hello@exampil.com</p>
+            <QueryBuilderIcon style={{color:"purple"}} /> <p style={{color:"purple"}}>10:00 am to 6:00 pm</p>
 
       </div>
     </div>
